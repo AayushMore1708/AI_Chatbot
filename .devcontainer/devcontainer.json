@@ -1,0 +1,9 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",
+  "features": {
+    "node": "latest"
+  },
+  "forwardPorts": [3000],
+  "commandToRun": "npm start"
+}
